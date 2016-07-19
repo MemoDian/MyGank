@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_Pic_List"
+        android:layout_width="match_parent"
+        android:background="#44ff0000"
+        android:layout_above="@+id/tvXiala"
+        android:layout_height="match_parent" />
+    
+    <TextView 
+        android:id="@+id/tvXiala"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="加载更多....."
+        android:textSize="40px"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:background="#a9a9a9"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

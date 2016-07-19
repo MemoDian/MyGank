@@ -1,0 +1,14 @@
+package com.momo.gank.View;
+
+import java.util.List;
+
+import com.momo.gank.Entity.Results;
+
+
+public interface ITextView extends IView {
+
+	/**
+	 * ÏÔÊ¾Êý¾Ý
+	 */
+	void showText(List<Results> list);
+}
