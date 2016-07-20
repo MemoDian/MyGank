@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEEEEE"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvType"
+        android:text="内容"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/tvDesc"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:src="#99000000" />
+
+    <TextView
+        android:id="@+id/tvWho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvType"
+        android:layout_alignBottom="@+id/tvType"
+        android:layout_alignParentRight="true"
+        android:text="作者:"
+        android:textColor="#99ff0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="类型"
+        android:textColor="#ff0000"
+        android:textSize="26sp" />
+
+</RelativeLayout>
