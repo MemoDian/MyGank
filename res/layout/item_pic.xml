@@ -17,6 +17,7 @@
             android:layout_above="@+id/tvTime"
             android:layout_margin="4dp"
             android:adjustViewBounds="true"
+            android:scaleType="fitXY"
             android:src="@drawable/ic_launcher" />
 
         <TextView
