@@ -28,15 +28,6 @@
             android:text="自制gank"
             android:textColor="#ff0000"
             android:textSize="40px" />
-
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_margin="10dp"
-            android:background="@drawable/fenxiang" />
     </RelativeLayout>
 
     <android.support.v4.view.ViewPager

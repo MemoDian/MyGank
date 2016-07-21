@@ -3,17 +3,14 @@ package com.momo.gank.Activity;
 import java.util.ArrayList;
 import java.util.List;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.RadioButton;
-import android.widget.RadioGroup;
 
 import com.momo.gank.R;
 import com.momo.gank.Adapter.FragmentAdapter;
@@ -23,7 +20,6 @@ import com.momo.gank.Fragment.TextFragemnt;
 
 public class MainActivity extends FragmentActivity {
 	private ViewPager vpFragment;
-	private RadioGroup rgButton;
 	private RadioButton rbText;
 	private RadioButton rbPic;
 	private RadioButton rbRandom;
@@ -38,7 +34,7 @@ public class MainActivity extends FragmentActivity {
 		setViews();
 		// viewPager  ≈‰
 		viewPagerAdapter();
-		//º‡Ã˝
+		// º‡Ã˝
 		setOnClick();
 	}
 
@@ -61,7 +57,7 @@ public class MainActivity extends FragmentActivity {
 				vpFragment.setCurrentItem(2);
 			}
 		});
-		
+
 		vpFragment.setOnPageChangeListener(new OnPageChangeListener() {
 			@Override
 			public void onPageSelected(int position) {
@@ -79,9 +75,11 @@ public class MainActivity extends FragmentActivity {
 					break;
 				}
 			}
+
 			@Override
 			public void onPageScrolled(int arg0, float arg1, int arg2) {
 			}
+
 			@Override
 			public void onPageScrollStateChanged(int arg0) {
 			}
@@ -100,7 +98,6 @@ public class MainActivity extends FragmentActivity {
 
 	private void setViews() {
 		vpFragment = (ViewPager) findViewById(R.id.vpFragment);
-		rgButton = (RadioGroup) findViewById(R.id.rgButton);
 		rbText = (RadioButton) findViewById(R.id.rbText);
 		rbPic = (RadioButton) findViewById(R.id.rbPic);
 		rbRandom = (RadioButton) findViewById(R.id.rbRandom);

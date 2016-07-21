@@ -151,4 +151,5 @@ public class PicFragemnt extends Fragment implements IPicView {
 		// Í¼Æ¬ÁÐ±í¼àÌý
 		setLvpicOnScroll();
 	}
+	
 }

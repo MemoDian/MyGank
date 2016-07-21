@@ -34,4 +34,14 @@
         android:layout_margin="5dp"
         />
 
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@+id/iv"
+            android:layout_alignRight="@+id/iv"
+            android:layout_margin="10dp"
+            android:background="@drawable/fengxiang"
+            android:text="分享" />
+
 </RelativeLayout>
